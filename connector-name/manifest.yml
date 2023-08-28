@@ -1,0 +1,13 @@
+manifest_version: 1
+version:
+  name: Connector Name
+  label: "v0.1.0"
+
+artifacts:
+  setup_script: connector-name/src/scripts/setup.sql
+  readme: connector-name/readme.md
+  default_streamlit: code_schema.connector_name_streamlit
+
+privileges:
+  - CREATE DATABASE:
+      description: "Add description if needed"
